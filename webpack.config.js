@@ -20,7 +20,7 @@ module.exports = {
     }),
     new ESLintPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'PowerPlant',
       template: './src/index.html',
       inject: 'body'
     })
